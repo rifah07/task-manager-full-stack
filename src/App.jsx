@@ -1,7 +1,7 @@
 import "./App.css";
-import TaskInput from "./TaskInput";
-import TaskList from "./TaskList";
-import { TaskProvider } from "./TaskContext";
+import TaskInput from "./components/TaskInput";
+import TaskList from "./components/TaskList";
+import { TaskProvider } from "./components/TaskContext";
 function App() {
   return (
     <TaskProvider>
